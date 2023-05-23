@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<div class="notification is-danger">
+  {{ messages[0] }}
+</div>
+{% endif %}
+{% endwith %}
+
+<h1 class="title">
+  Profile list:
+</h1>
+
+<div class='columns is-mobile is-centered'>
+  <div class='column'>
+              {% for eachuser in userlist %}
+                    <form action="/profile" method="GET">
+                      <input type="hidden" id="name" name="name" value="{{ eachuser.name }}">
+                      <input type="submit" class="button is-large is-link" value="{{ eachuser.name }}">
+                    </form>
+                    <br>
+              {% endfor %}
+  </div>
+</div>
+{% endblock %}
