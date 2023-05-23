@@ -19,4 +19,4 @@ ENV FLASK_APP='project'
 # $env:FLASK_DEBUG = '1'
 ENV FLASK_DEBUG='1' 
 
-ENTRYPOINT flask run --host=0.0.0.0 --port=5000
+ENTRYPOINT flask run --host=0.0.0.0 --port=4000
