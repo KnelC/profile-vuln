@@ -1,5 +1,0 @@
-docker image build -t profile_app .
-docker run -p 5000:5000 -d profile_app
-
-docker tag profile_app knelc/profile_app
-docker push knelc/profile_app
