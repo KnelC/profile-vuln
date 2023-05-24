@@ -35,7 +35,7 @@ docker run -p 5000:5000 -d profile_app
 
 ### Com Python
 
-Necessita de ter `python3` instalado. Executar na pasta `evil_website`:
+Necessita de ter `python3` instalado. Executar na pasta `/evil_website`:
 
 ```
 pip install -r requirements.txt
