@@ -12,7 +12,7 @@ A apresentação encontra-se na pasta `/presentation`.
 
 ## Para iniciar website vulnerável:
 
-### Python
+### Com Python
 
 Necessita de ter `python3` instalado. Executar na pasta raiz que contem o repositório:
 
@@ -23,7 +23,7 @@ export FLASK_DEBUG='1' # em windows powershell: $env:FLASK_DEBUG = '1'
 flask run --host=0.0.0.0 --port=5000
 ```
 
-### Docker
+### Com Docker
 ```
 docker image build -t profile_app .
 
@@ -32,7 +32,7 @@ docker run -p 5000:5000 -d profile_app
 
 ## Para iniciar website phishing:
 
-### Python
+### Com Python
 
 Necessita de ter `python3` instalado. Executar na pasta `evil_website`:
 
@@ -43,7 +43,7 @@ export FLASK_DEBUG='1' # em windows powershell: $env:FLASK_DEBUG = '1'
 flask run --host=0.0.0.0 --port=4000
 ```
 
-### Docker
+### Com Docker
 Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr:
 ```
 docker image build -t evil_app .
