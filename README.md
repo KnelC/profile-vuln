@@ -4,7 +4,7 @@ Repositório criado para a workshop de ataques de segurança realizada no Colég
 
 Para comandos em windows é recomendado utilizar a PowerShell.
 
-Na pasta `/project` encontra-se o website criado usando [Flask](https://flask.palletsprojects.com/en/2.3.x/quickstart/). 
+Na pasta `/project` encontra-se o website criado em Python usando [Flask](https://flask.palletsprojects.com/en/2.3.x/quickstart/). 
 
 Na pasta `/evil_website` encontram-se o website de phishing (`/evil_website/project`) e os scripts de XSS (`evilscript.js` e `evilscript_base.js`).
 
