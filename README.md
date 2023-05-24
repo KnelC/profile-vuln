@@ -24,6 +24,7 @@ flask run --host=0.0.0.0 --port=5000
 ```
 
 ### Com Docker
+Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr:
 ```
 docker image build -t profile_app .
 
