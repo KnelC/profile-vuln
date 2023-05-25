@@ -24,7 +24,7 @@ flask run --host=0.0.0.0 --port=5000
 ```
 
 ### Com Docker
-Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr:
+Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr. Executar na pasta raiz que contem o repositório:
 ```
 docker image build -t profile_app .
 
@@ -45,7 +45,7 @@ flask run --host=0.0.0.0 --port=4000
 ```
 
 ### Com Docker
-Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr:
+Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr.  Executar na pasta `/evil_website`:
 ```
 docker image build -f Dockerfile_evil -t evil_app .
 
