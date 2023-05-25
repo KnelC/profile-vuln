@@ -47,7 +47,7 @@ flask run --host=0.0.0.0 --port=4000
 ### Com Docker
 Com [Docker engine](https://www.docker.com/products/docker-desktop/) instalado e a correr:
 ```
-docker image build -t evil_app .
+docker image build -f Dockerfile_evil -t evil_app .
 
 docker run -p 4000:4000 -d evil_app
 ```
